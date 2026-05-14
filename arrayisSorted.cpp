@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-using namespace std;  // cheack if array is sorted or not
+using namespace std;  //check if array is sorted or not.
  bool isSorted(int arr[],int n ){
     if(n==0 || n==1) return true;
      

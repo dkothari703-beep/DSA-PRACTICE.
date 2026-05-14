@@ -29,31 +29,31 @@ using namespace std;
 // }
 // return ans;
 //  }
-  vector<int> distinctElement(vector<int> & nums ){
-    int n = nums.size();
-     unordered_map<int, int> m;
-      vector<int> ans;
-      for(int i = 0 ; i< n;i++) {
+  // vector<int> distinctElement(vector<int> & nums ){
+  //   int n = nums.size();
+  //    unordered_map<int, int> m;
+  //     vector<int> ans;
+  //     for(int i = 0 ; i< n;i++) {
        
-        if(m[nums[i]]==0) 
-        {
-          ans.push_back(nums[i]);
-      }
-       m[nums[i]]++;
+  //       if(m[nums[i]]==0) 
+  //       {
+  //         ans.push_back(nums[i]);
+  //     }
+  //      m[nums[i]]++;
 
-    }
-      return ans;
+  //   }
+  //     return ans;
     
-  }
+  // }
     
-    int main () {
-        vector<int> nums={1,2,3,3,5,5};
+  //   int main () {
+  //       vector<int> nums={1,2,3,3,5,5};
         
-        vector<int> ans=distinctElement(nums);
-        for(int x:ans ) {
-            cout<<x;
-        }
+  //       vector<int> ans=distinctElement(nums);
+  //       for(int x:ans ) {
+  //           cout<<x;
+  //       }
         
         
-         return 0;
-    }
+  //        return 0;
+  //   }

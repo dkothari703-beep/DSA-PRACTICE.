@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<string>
-using namespace std; //permmutation for strings
+using namespace std; // permutation for strings
 void permutations(string &str, vector<string> & ans, int idx) {
     if(idx==str.length()) {
        ans.push_back(str);

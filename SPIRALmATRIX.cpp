@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std; 
-// SPIRAL MATRIX
+//SPIRAL MATRIX
 vector<int>spiralMatrix(vector<vector<int>> mat) {
     int m = mat.size(), n = mat[0].size();
     int strow=0,stcol=0,endrow=m-1,endcol=n-1;
